@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { projectStorage } from "../firebase/config";
+import { projectStorage, projectFireStore } from "../firebase/config";
 
 //Hooks mean resuble code
 //responsible for uplaoding
