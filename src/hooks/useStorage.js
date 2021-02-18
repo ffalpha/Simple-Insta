@@ -17,7 +17,7 @@ const useStorage = (file) => {
   //when file change usefffet fire everytime
   useEffect(() => {
     //reffernce
-    const storageRef = projectStorage.ref(file.name);
+    const storageRef = projectStorage.ref("2021" + file.name);
     const collectionRef = projectFireStore.collection("images");
     storageRef.put(file).on(
       "state_changed",
