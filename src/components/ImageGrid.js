@@ -1,9 +1,12 @@
 import React from "react";
 import useFireStore from "../hooks/useFireStore";
+import LoadingSpinner from "./LoadingSpinner";
 function ImageGrid() {
   const { docs, loading } = useFireStore("images");
   console.log(loading);
-  return (
+  return loading ? (
+    <LoadingSpinner />
+  ) : (
     <div className="img-grid">
       {docs &&
         docs.map((doc) => (
