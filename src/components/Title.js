@@ -5,10 +5,8 @@ const Title = () => {
       <h1>Simple insta</h1>
       <h2>Your Pictures</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus alias
-        dolorum, sed eligendi facilis sint iste omnis unde reiciendis minus
-        ullam fuga temporibus optio quidem cumque. Pariatur vitae mollitia
-        consequatur!
+        A simple Photo uploading site build using FIrebase and React. Add Your
+        Pictures
       </p>
     </div>
   );
