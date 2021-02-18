@@ -4,7 +4,7 @@ import LoadingSpinner from "./LoadingSpinner";
 import { motion } from "framer-motion";
 function ImageGrid({ setSelectedImg }) {
   const { docs, loading } = useFireStore("images");
-  console.log(loading);
+
   return loading ? (
     <LoadingSpinner />
   ) : (
